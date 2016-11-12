@@ -1,0 +1,230 @@
+xfce4-notifyd (0.3.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/patches:
+    - 0001-Fix-theming-issues-with-Gtk-3.22 dropped, included upstream.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sat, 12 Nov 2016 15:48:20 +0100
+
+xfce4-notifyd (0.3.3-2) unstable; urgency=medium
+
+  * debian/patches:
+    - 0001-Fix-theming-issues-with-Gtk-3.22 added, cherry-picked from upstream.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Mon, 31 Oct 2016 14:07:50 +0100
+
+xfce4-notifyd (0.3.3-1) unstable; urgency=medium
+
+  [ Mateusz Łukasik ]
+  * New upstream release.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Fri, 07 Oct 2016 09:04:15 +0200
+
+xfce4-notifyd (0.3.2-1) unstable; urgency=medium
+
+  [ Mateusz Łukasik ]
+  * New upstream release.
+  * Drop patches -- no longer needed.
+  * debian/control:
+    - Update B-D: Switch to libxfce4ui-2-dev and add libgtk-3-dev.
+    - Bump minimal version of xfce libs to 4.12.
+    - Bump strandards-version to 3.9.8.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 11 Sep 2016 16:03:07 +0200
+
+xfce4-notifyd (0.2.4-3) unstable; urgency=low
+
+  [ Evgeni Golov ]
+  * Correct Vcs-* URLs to point to anonscm.debian.org
+
+  [ Jackson Doak ]
+  * debian/control: 
+    - Bump strandards-version to 3.9.5
+    - Build-depend on dh-autoreconf
+  * debian/copyright: Change GPL-2 to GPL-2+
+  * debian/rules: Add --with autoreconf
+  * Create debian/source/options
+  * debian/xfce4-notifyd.lintian-overrides: 
+    - Remove unused override: desktop-entry-invalid-category
+
+  [ Yves-Alexis Perez ]
+  * debian/control:
+    - add build-dep on xfce4-dev-tools for xdt-autogen command.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sat, 17 May 2014 15:47:03 +0200
+
+xfce4-notifyd (0.2.4-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Thu, 23 May 2013 23:15:33 +0200
+
+xfce4-notifyd (0.2.4-1) experimental; urgency=low
+
+  [ Daniel Echeverry ]
+  * Add XfceNotifyWindow::summary-bold option.                  closes: #687441
+  * debian/control
+    + Update homepage field.                                    closes: #685737
+    + Remove duplicate section field. (lintian)
+  * debian/copyright
+    + Update copyright file to DEP5
+
+  [ Evgeni Golov ]
+  * New upstream release.
+
+ -- Evgeni Golov <evgeni@debian.org>  Thu, 23 May 2013 21:52:54 +0200
+
+xfce4-notifyd (0.2.3-1) experimental; urgency=low
+
+  * New upstream release.
+  * debian/patches:
+    - 01_fix-dismiss-notifications and 02_fix-desktop-category dropped,
+      included upstream.
+  * debian/rules:
+    - enable all hardening options.
+  * debian/control:
+    - add build-dep on libnotify-dev.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 21 Apr 2013 13:37:26 +0200
+
+xfce4-notifyd (0.2.2-3) experimental; urgency=low
+
+  [ Lionel Le Folgoc ]
+  * debian/patches:
+    - 02_fix-desktop-category.patch: added, let xfce4-notifyd-config appear
+      in xfce4-settings 4.9.x/4.10.
+
+  [ Yves-Alexis Perez ]
+  * debian/xfce4-notifyd.lintian-overrides: XFCE is now a valid category.
+
+ -- Lionel Le Folgoc <mrpouit@gmail.com>  Sat, 13 Oct 2012 15:56:05 +0200
+
+xfce4-notifyd (0.2.2-2) unstable; urgency=low
+
+  * debian/patches:
+    - 01_fix-dismiss-notifications added, backported from upstream. Correctly
+      dismiss notifications when clicked.                       closes: #672646
+  * debian/rules:
+    - use dpkg-dev 1.16.1 and debhelper 9 hardening support.
+    - build with --parallel.
+  * debian/compat bumped to 9.
+  * debian/control:
+    - update debhelper build-dep to 9.
+    - add dpkg-dev 1.16.1 build-dep.
+    - drop hardening-includes build-dep.
+    - update standards version to 3.9.3.
+  * debian/xfce4-notifyd.lintian-overrides added, add override for hardening
+    checks since we do use hardening build flags.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Tue, 15 May 2012 23:04:44 +0200
+
+xfce4-notifyd (0.2.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control:
+    - drop conflicts against notification-daemon{,-xfce} since we stopped
+      shipping the same service file.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sat, 06 Aug 2011 11:37:18 +0200
+
+xfce4-notifyd (0.2.1-2) unstable; urgency=low
+
+  [ Lionel Le Folgoc ]
+  * Upload to unstable.
+  * debian/control:
+    - add myself to Uploaders.
+    - remove Simon and Emanuele from uploaders, thanks to them.
+    - bump b-deps for Xfce 4.8.
+
+  [ Yves-Alexis Perez ]
+  * debian/control:
+    - add a recommends on libnotify-bin for the theme changes to be previewed.
+    - update standards version to 3.9.2. 
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 20 Apr 2011 12:44:46 +0200
+
+xfce4-notifyd (0.2.1-1) experimental; urgency=low
+
+  * New upstream release.
+  * debian/control:
+    - convert libxfcegui4-dev build-dep to libxfce4ui-dev.
+    - update standards version to 3.9.1.
+    - add build-dep on hardening-includes.
+    - drop libsexy and libglade from build-deps.
+  * debian/rules:
+    - pick {C,LD}FLAGS from dpkg-buildflags.
+    - add -z,defs, --as-needed and -O1 to LDFLAGS.
+    - add hardening flags to {C,LD}FLAGS
+    - drop the overrides since we don't need to patch POTFILES.skip anymore.
+  * debian/patches:
+    - 01_send-second-arg-notification-closed dropped, xfce4-notifyd has been
+      ported to libnotify 0.4.5.
+    - 02_add-spec-version-to-GetServerInformation dropped as well, included
+      upstream.
+  * debian/copyright updated for new release.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 27 Feb 2011 15:10:42 +0100
+
+xfce4-notifyd (0.1.0-5) unstable; urgency=low
+
+  [ Evgeni Golov ]
+  * Fix Vcs-* fields, they were missing 'trunk' in the path.
+
+  [ Yves-Alexis Perez ]
+  * debian/patches:
+    - 02_add-spec-version-to-GetServerInformation added, returns spec version
+    information so we're conform to 1.0      .                  closes: #588272
+  * switch source format to 3.0 (quilt).
+  * debian/rules:
+    - add .pc files to POTFILES.skip.
+    - drop quilt addon call and rules.
+  * debian/control:
+    - update standards version to 3.9.0.
+    - bump debhelper build-dep to 7.0.50~ for overrides.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 07 Jul 2010 22:38:41 +0200
+
+xfce4-notifyd (0.1.0-4) unstable; urgency=low
+
+  * debian/patches/01_send-second-arg-notification-closed.patch:
+    Now really send the reason argument with NotificationClosed. closes: 522729
+
+ -- Evgeni Golov <evgeni@debian.org>  Sun, 10 May 2009 21:43:20 +0200
+
+xfce4-notifyd (0.1.0-3) unstable; urgency=low
+
+  [ Evgeni Golov ]
+  * Update my e-mail address.
+
+  [ Yves-Alexis Perez ]
+  * debian/patches
+    - 01_send-second-arg-notification-closed added, correctly send two
+      arguments with NotificationClosed.                         closes: 522729
+  * debian/rules:
+    - simplify tiny.rules for debhelper 7.
+  * debian/control:
+    - add build-dep on quilt (with --with-quilt support in the rule).
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 10 May 2009 18:14:08 +0200
+
+xfce4-notifyd (0.1.0-2) unstable; urgency=low
+
+  * Upload to unstable.
+  * debian/control:
+    - move to xfce section.
+    - update standards version to 3.8.1.
+    - update build-deps to Xfce 4.6. 
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sat, 04 Apr 2009 02:24:22 +0200
+
+xfce4-notifyd (0.1.0-1) experimental; urgency=low
+
+  [ Evgeni Golov ]
+  * Initial release.                                        closes: #506864
+
+  [ Yves-Alexis Perez ]
+  * debian/control:
+    - add pkg-xfce team to Uploaders:
+    - add build-dep on libxfconf-0-dev.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 01 Mar 2009 00:27:40 +0100

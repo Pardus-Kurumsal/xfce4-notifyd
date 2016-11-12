@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export DEB_LDFLAGS_MAINT_APPEND=-Wl,--as-needed -Wl,-O1 -Wl,-z,defs
+export DEB_BUILD_MAINT_OPTIONS=hardening=+all
+
+override_dh_auto_configure:
+	NOCONFIGURE=1 xdt-autogen
+	dh_auto_configure -- --enable-maintainer-mode
+
+%:
+	dh $@ --parallel --with autoreconf

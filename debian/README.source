@@ -1,0 +1,2 @@
+Upstream releases the source as .tar.bz2, to get a .tar.gz you need to call
+bzcat xfce4-notifyd-X.Y.Z.tar.bz2 | gzip -9 > xfce4-notifyd_X.Y.Z.orig.tar.gz

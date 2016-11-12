@@ -1,0 +1,3 @@
+version=3
+http://archive.xfce.org/src/apps/xfce4-notifyd/([\d\.]+)/ \
+	xfce4-notifyd-([\d\.]+)\.tar\.(?:gz|bz2)
