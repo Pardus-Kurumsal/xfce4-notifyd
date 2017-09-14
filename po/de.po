@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Christian Dywan <christian@twotoasts.de>, 2008
+# Fabian Nowak <timystery@arcor.de>, 2010
+# Markus, 2013
+# Tobias Bannert <tobannert@gmail.com>, 2014-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce Apps\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-04 00:30+0200\n"
+"PO-Revision-Date: 2016-10-13 10:22+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
+"Language-Team: German (http://www.transifex.com/xfce/xfce-apps/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../xfce4-notifyd/main.c:53 ../xfce4-notifyd/main.c:63
+#: ../xfce4-notifyd-config/main.c:468
+msgid "Xfce Notify Daemon"
+msgstr "Xfce-Benachrichtigungsdienst"
+
+#: ../xfce4-notifyd/main.c:56
+#, c-format
+msgid "Unknown option \"%s\"\n"
+msgstr "Unbekannte Option »%s«\n"
+
+#: ../xfce4-notifyd/main.c:65
+msgid "Unable to start notification daemon"
+msgstr "Benachrichtigungsienst konnte nicht gestartet werden"
+
+#: ../xfce4-notifyd/xfce-notify-daemon.c:363
+#, c-format
+msgid "Another notification daemon is running, exiting\n"
+msgstr "Ein anderer Benachrichtigungsdienst läuft – es wird beendet\n"
+
+#: ../xfce4-notifyd-config/main.c:59
+msgid "Notification Preview"
+msgstr "Benachrichtigungsvorschau"
+
+#: ../xfce4-notifyd-config/main.c:60
+msgid "This is what notifications will look like"
+msgstr "So werden Benachrichtigungen aussehen"
+
+#: ../xfce4-notifyd-config/main.c:65
+msgid "Button"
+msgstr "Knopf"
+
+#: ../xfce4-notifyd-config/main.c:72
+msgid "Notification preview failed"
+msgstr "Benachrichtigungsvorschau fehlgeschlagen"
+
+#: ../xfce4-notifyd-config/main.c:470
+msgid "Settings daemon is unavailable"
+msgstr "Einstellungsdienst nicht verfügbar"
+
+#: ../xfce4-notifyd-config/main.c:559
+msgid "Display version information"
+msgstr "Versionsinformationen anzeigen"
+
+#: ../xfce4-notifyd-config/main.c:560
+msgid "Settings manager socket"
+msgstr "Einstellungsverwaltungsanschluss"
+
+#: ../xfce4-notifyd-config/main.c:560
+msgid "SOCKET_ID"
+msgstr "SOCKET-NR"
+
+#: ../xfce4-notifyd-config/main.c:570
+#, c-format
+msgid "Type '%s --help' for usage."
+msgstr "»%s --help« eingeben, um Hinweise zur Benutzung zu erhalten."
+
+#: ../xfce4-notifyd-config/main.c:585
+#, c-format
+msgid "Released under the terms of the GNU General Public License, version 2\n"
+msgstr "Veröffentlicht unter den Bedingungen der GNU General Public License, version 2\n"
+
+#: ../xfce4-notifyd-config/main.c:586
+#, c-format
+msgid "Please report bugs to %s.\n"
+msgstr "Fehlerberichte bitte an %s melden.\n"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:1
+msgid "Top left"
+msgstr "Oben links"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:2
+msgid "Bottom left"
+msgstr "Unten links"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:3
+msgid "Top right"
+msgstr "Oben rechts"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:4
+msgid "Bottom right"
+msgstr "Unten rechts"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:5
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.desktop.in.h:1
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:6
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.desktop.in.h:2
+msgid "Customize how notifications appear on your screen"
+msgstr "Das Erscheinungsbild von Benachrichtigungen anpassen"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:7
+msgid "Show Notification _Preview"
+msgstr "_Benachrichtigungsvorschau anzeigen"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:8
+msgid "_Theme:"
+msgstr "_Thema"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:9
+msgid "Default _position:"
+msgstr "_Standardposition:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:10
+msgid "seconds"
+msgstr "Sekunden"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:11
+msgid "_Disappear after:"
+msgstr "Ausblenden _nach:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:12
+msgid "_Opacity:"
+msgstr "_Deckkraft:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:13
+msgid "Appearance"
+msgstr "Erscheinung"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:14
+msgid "Do not disturb"
+msgstr "Bitte nicht stören"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:15
+msgid "<b>Show notifications for</b>"
+msgstr "<b>Benachrichtigungen anzeigen für</b>"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:16
+msgid ""
+"<b>Currently no notifications are shown</b>\n"
+"except for messages marked as urgent."
+msgstr "<b>Derzeit werden keine Benachrichtigungen angezeigt</b>\naußer für Nachrichten, die als dringend gekennzeichnet sind."
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:18
+msgid "Applications"
+msgstr "Anwendungen"

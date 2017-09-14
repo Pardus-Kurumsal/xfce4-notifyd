@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Kiril Kirilov <cybercop_montana@abv.bg>, 2012
+# Kiril Kirilov <cybercop_montana@abv.bg>, 2012
+# Kiril Kirilov <cybercop_montana@abv.bg>, 2016
+# Любомир Василев, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce Apps\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-04 00:30+0200\n"
+"PO-Revision-Date: 2016-10-04 17:11+0000\n"
+"Last-Translator: Kiril Kirilov <cybercop_montana@abv.bg>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/xfce/xfce-apps/language/bg/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../xfce4-notifyd/main.c:53 ../xfce4-notifyd/main.c:63
+#: ../xfce4-notifyd-config/main.c:468
+msgid "Xfce Notify Daemon"
+msgstr "Демон за уведомления в Xfce"
+
+#: ../xfce4-notifyd/main.c:56
+#, c-format
+msgid "Unknown option \"%s\"\n"
+msgstr "Непозната опция „%s“\n"
+
+#: ../xfce4-notifyd/main.c:65
+msgid "Unable to start notification daemon"
+msgstr "Неуспех при стартиране на демонът за уведомяване"
+
+#: ../xfce4-notifyd/xfce-notify-daemon.c:363
+#, c-format
+msgid "Another notification daemon is running, exiting\n"
+msgstr "Още един демон за уведомления е стартиран, излизане\n"
+
+#: ../xfce4-notifyd-config/main.c:59
+msgid "Notification Preview"
+msgstr "Преглед на уведомление"
+
+#: ../xfce4-notifyd-config/main.c:60
+msgid "This is what notifications will look like"
+msgstr "Уведомлението ще изглежда по този начин"
+
+#: ../xfce4-notifyd-config/main.c:65
+msgid "Button"
+msgstr "Бутон"
+
+#: ../xfce4-notifyd-config/main.c:72
+msgid "Notification preview failed"
+msgstr "Предварителният преглед на уведомленията е неуспешен"
+
+#: ../xfce4-notifyd-config/main.c:470
+msgid "Settings daemon is unavailable"
+msgstr "Демонът за настройките е недостъпен"
+
+#: ../xfce4-notifyd-config/main.c:559
+msgid "Display version information"
+msgstr "Показване на информация за версията"
+
+#: ../xfce4-notifyd-config/main.c:560
+msgid "Settings manager socket"
+msgstr "Гнездо за мениджъра на настройките"
+
+#: ../xfce4-notifyd-config/main.c:560
+msgid "SOCKET_ID"
+msgstr "SOCKET_ID"
+
+#: ../xfce4-notifyd-config/main.c:570
+#, c-format
+msgid "Type '%s --help' for usage."
+msgstr "Въведете „%s --help“ за показване на потребителското ръководство."
+
+#: ../xfce4-notifyd-config/main.c:585
+#, c-format
+msgid "Released under the terms of the GNU General Public License, version 2\n"
+msgstr "Разпространява се под условията на GNU General Public License версия 2\n"
+
+#: ../xfce4-notifyd-config/main.c:586
+#, c-format
+msgid "Please report bugs to %s.\n"
+msgstr "Моля, докладвайте грешки на %s.\n"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:1
+msgid "Top left"
+msgstr "Горе вляво"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:2
+msgid "Bottom left"
+msgstr "Долу вляво"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:3
+msgid "Top right"
+msgstr "Горе вдясно"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:4
+msgid "Bottom right"
+msgstr "Долу вдясно"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:5
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.desktop.in.h:1
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:6
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.desktop.in.h:2
+msgid "Customize how notifications appear on your screen"
+msgstr "Настройване на изгледа на уведомленията на екрана"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:7
+msgid "Show Notification _Preview"
+msgstr "Покажи _предварителен преглед на уведомлението"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:8
+msgid "_Theme:"
+msgstr "Тема:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:9
+msgid "Default _position:"
+msgstr "Разположение по подразбиране:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:10
+msgid "seconds"
+msgstr "секунди"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:11
+msgid "_Disappear after:"
+msgstr "Скриване след:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:12
+msgid "_Opacity:"
+msgstr "Непрозрачност:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:13
+msgid "Appearance"
+msgstr "Външен вид"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:14
+msgid "Do not disturb"
+msgstr "Не ме притеснявайте"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:15
+msgid "<b>Show notifications for</b>"
+msgstr "<b>Показване на уведомления за</b>"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:16
+msgid ""
+"<b>Currently no notifications are shown</b>\n"
+"except for messages marked as urgent."
+msgstr "<b>В момента няма показани уведомления</b>\nс изключение на уведомленията, маркирани, като спешни."
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:18
+msgid "Applications"
+msgstr "Приложения"

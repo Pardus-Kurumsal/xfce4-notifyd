@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# abuyop <abuyop@gmail.com>, 2014,2016
+# Puretech <terjemah.puretech@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce Apps\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-04 00:30+0200\n"
+"PO-Revision-Date: 2016-10-09 01:30+0000\n"
+"Last-Translator: Puretech <terjemah.puretech@gmail.com>\n"
+"Language-Team: Malay (http://www.transifex.com/xfce/xfce-apps/language/ms/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../xfce4-notifyd/main.c:53 ../xfce4-notifyd/main.c:63
+#: ../xfce4-notifyd-config/main.c:468
+msgid "Xfce Notify Daemon"
+msgstr "Daemon Maklum Xfce"
+
+#: ../xfce4-notifyd/main.c:56
+#, c-format
+msgid "Unknown option \"%s\"\n"
+msgstr "Pilihan \"%s\" tidak diketahui\n"
+
+#: ../xfce4-notifyd/main.c:65
+msgid "Unable to start notification daemon"
+msgstr "Tidak boleh mulakan daemon pemberitahuan"
+
+#: ../xfce4-notifyd/xfce-notify-daemon.c:363
+#, c-format
+msgid "Another notification daemon is running, exiting\n"
+msgstr "Daemon pemberitahuan lain sudah berjalan, keluar\n"
+
+#: ../xfce4-notifyd-config/main.c:59
+msgid "Notification Preview"
+msgstr "Pratonton Pemberitahuan"
+
+#: ../xfce4-notifyd-config/main.c:60
+msgid "This is what notifications will look like"
+msgstr "Ini adalah rupa pemberitahuan akan kelihatan"
+
+#: ../xfce4-notifyd-config/main.c:65
+msgid "Button"
+msgstr "Butang"
+
+#: ../xfce4-notifyd-config/main.c:72
+msgid "Notification preview failed"
+msgstr "Pratonton pemberitahuan gagal"
+
+#: ../xfce4-notifyd-config/main.c:470
+msgid "Settings daemon is unavailable"
+msgstr "Daemon tetapan tidak tersedia"
+
+#: ../xfce4-notifyd-config/main.c:559
+msgid "Display version information"
+msgstr "Papar maklumat versi"
+
+#: ../xfce4-notifyd-config/main.c:560
+msgid "Settings manager socket"
+msgstr "Tetapkan soket pengurus"
+
+#: ../xfce4-notifyd-config/main.c:560
+msgid "SOCKET_ID"
+msgstr "SOCKET_ID"
+
+#: ../xfce4-notifyd-config/main.c:570
+#, c-format
+msgid "Type '%s --help' for usage."
+msgstr "Taip '%s --help' untuk penggunaan."
+
+#: ../xfce4-notifyd-config/main.c:585
+#, c-format
+msgid "Released under the terms of the GNU General Public License, version 2\n"
+msgstr "Dilepaskan dibawah terma GNU General Public License, versi 2\n"
+
+#: ../xfce4-notifyd-config/main.c:586
+#, c-format
+msgid "Please report bugs to %s.\n"
+msgstr "Sila laporkan pepijat ke %s.\n"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:1
+msgid "Top left"
+msgstr "Kiri atas"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:2
+msgid "Bottom left"
+msgstr "Kiri bawah"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:3
+msgid "Top right"
+msgstr "Kanan atas"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:4
+msgid "Bottom right"
+msgstr "Kanan bawah"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:5
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.desktop.in.h:1
+msgid "Notifications"
+msgstr "Pemberitahuan"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:6
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.desktop.in.h:2
+msgid "Customize how notifications appear on your screen"
+msgstr "Suaikan bagaimana pemberitahuan muncul atas skrin anda"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:7
+msgid "Show Notification _Preview"
+msgstr "_Pratonton Pemberitahuan"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:8
+msgid "_Theme:"
+msgstr "_Tema:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:9
+msgid "Default _position:"
+msgstr "_Kedudukan lalai:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:10
+msgid "seconds"
+msgstr "saat"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:11
+msgid "_Disappear after:"
+msgstr "_Hilang selepas:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:12
+msgid "_Opacity:"
+msgstr "Ke_legapan:"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:13
+msgid "Appearance"
+msgstr "Penampilan"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:14
+msgid "Do not disturb"
+msgstr "Jangan ganggu"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:15
+msgid "<b>Show notifications for</b>"
+msgstr "<b>Papar pemberitahuan untuk</b>"
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:16
+msgid ""
+"<b>Currently no notifications are shown</b>\n"
+"except for messages marked as urgent."
+msgstr "<b>Tiada pemberitahuan dipaparkan waktu ini</b>\nkecuali untuk mesej yang ditanda sebagai penting."
+
+#: ../xfce4-notifyd-config/xfce4-notifyd-config.glade.h:18
+msgid "Applications"
+msgstr "Aplikasi"
